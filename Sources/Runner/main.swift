@@ -1,7 +1,7 @@
 import CRuby
 
 ruby_setup()
-rb_require("./sources/rwda/rwda.rb") // Importing Ruby file
+rb_require("./Sources/rwda/rwda.rb") // Importing Ruby file
 
 var stringArg = rb_str_new_cstr("Swift") // Creating new Ruby string
 var result = rb_funcallv(0, rb_intern("hello"), 1, &(stringArg)) // Calling the function `hello` passing `stringArg`

@@ -3,15 +3,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "rwda",
+    name: "SwiftyRuby",
+    products: [
+        .executable(
+            name: "runner",
+            targets: ["Runner"]
+        ),
+    ],
     dependencies: [
         .package(url: "https://github.com/johnfairh/CRuby.git", branch: "main")
     ],
     targets: [
-        .target(
-            name: "rwda",
-            dependencies: []
-        )
+        .executableTarget(name: "Runner", dependencies: []),
     ]
 )
 
