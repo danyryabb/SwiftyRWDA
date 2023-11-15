@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CRuby",
+        "repositoryURL": "https://github.com/johnfairh/CRuby.git",
+        "state": {
+          "branch": "main",
+          "revision": "b66074fc8ff89f8e6ab69ce4c235faa16534667f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

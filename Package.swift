@@ -6,6 +6,12 @@ let package = Package(
     name: "rwda",
     dependencies: [
         .package(url: "https://github.com/johnfairh/CRuby.git", branch: "main")
+    ],
+    targets: [
+        .target(
+            name: "rwda",
+            dependencies: []
+        )
     ]
 )
 
